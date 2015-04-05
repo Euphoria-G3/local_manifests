@@ -7,24 +7,24 @@
   <remove-project name="Euphoria-OS-Legacy/android_vendor_eos" />
 
   <!-- Device Specific Sources -->
-  <project name="Euphoria-OS-Legacy/android_device_lge_d850" path="device/lge/d850" remote="github" revision="lollipop" />
-  <project name="Euphoria-OS-Legacy/android_device_lge_d851" path="device/lge/d851" remote="github" revision="lollipop" />
-  <project name="Euphoria-OS-Legacy/android_device_lge_d852" path="device/lge/d852" remote="github" revision="lollipop" />
-  <project name="Euphoria-OS-Legacy/android_device_lge_d855" path="device/lge/d855" remote="github" revision="lollipop" />
-  <project name="Euphoria-OS-Legacy/android_device_lge_ls990" path="device/lge/ls990" remote="github" revision="lollipop" />
-  <project name="Euphoria-OS-Legacy/android_device_lge_vs985" path="device/lge/vs985" remote="github" revision="lollipop" />
-  <project name="Euphoria-OS-Legacy/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="lollipop" />
-  <project name="Euphoria-OS-Legacy/android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="lollipop" />
-  <project name="Euphoria-G3/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lollipop" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_d850" path="device/lge/d850" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_d851" path="device/lge/d851" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_d852" path="device/lge/d852" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_d855" path="device/lge/d855" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_ls990" path="device/lge/ls990" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_vs985" path="device/lge/vs985" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-OS-Legacy/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-OS-Legacy/android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-G3/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lollipop-5.1" />
 
   <!-- Patched Euphoria Sources -->
-  <project name="Euphoria-G3/android_build" path="build" remote="github" revision="lollipop">
+  <project name="Euphoria-G3/android_build" path="build" remote="github" revision="lollipop-5.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="Euphoria-G3/android_frameworks_base" path="frameworks/base" remote="github" revision="lollipop" />
-  <project name="Euphoria-G3/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop" />
-  <project name="Euphoria-G3/android_vendor_eos" path="vendor/eos" remote="github" revision="lollipop" />
+  <project name="Euphoria-G3/android_frameworks_base" path="frameworks/base" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-G3/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop-5.1" />
+  <project name="Euphoria-G3/android_vendor_eos" path="vendor/eos" remote="github" revision="lollipop-5.1" />
 
   <!-- Qcom Common Source -->
-  <project name="Euphoria-OS-Legacy/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lollipop" />
+  <project name="Euphoria-OS-Legacy/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lollipop-5.1" />
 </manifest>
