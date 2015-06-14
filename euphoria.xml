@@ -2,8 +2,6 @@
 <manifest>
   <!-- Removed Sources -->
   <remove-project name="Euphoria-OS-Legacy/android_build" />
-  <remove-project name="Euphoria-OS-Legacy/android_frameworks_base" />
-  <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Settings" />
   <remove-project name="Euphoria-OS-Legacy/android_vendor_eos" />
 
   <!-- Device Specific Sources -->
@@ -21,8 +19,6 @@
   <project name="Euphoria-G3/android_build" path="build" remote="github" revision="lollipop-5.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="Euphoria-G3/android_frameworks_base" path="frameworks/base" remote="github" revision="lollipop-5.1" />
-  <project name="Euphoria-G3/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="lollipop-5.1" />
   <project name="Euphoria-G3/android_vendor_eos" path="vendor/eos" remote="github" revision="lollipop-5.1" />
 
   <!-- Qcom Common Source -->
