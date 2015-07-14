@@ -12,7 +12,7 @@
   <project name="Euphoria-OS-Devices/android_device_lge_ls990" path="device/lge/ls990" remote="github" revision="lollipop-5.1" />
   <project name="Euphoria-OS-Devices/android_device_lge_vs985" path="device/lge/vs985" remote="github" revision="lollipop-5.1" />
   <project name="Euphoria-OS-Devices/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="lollipop-5.1" />
-  <project name="Euphoria-OS-Devices/android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="lollipop-5.1-optimized" />
+  <project name="Euphoria-OS-Devices/android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="lollipop-5.1" />
   <project name="Euphoria-G3/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lollipop-5.1" />
 
   <!-- Patched Euphoria Sources -->
